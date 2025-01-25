@@ -6,7 +6,7 @@ namespace Treino.Api
 
         public int TemperatureC { get; set; }
 
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5);
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.53333333);
 
         public string? Summary { get; set; }
     }
